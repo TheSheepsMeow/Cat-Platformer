@@ -10,7 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Start</layout>
+        <layout order="0">Start</layout>
         <layout order="1">Layout 1</layout>
         <layout order="2">Layout 6</layout>
         <layout order="3">Layout 5</layout>
@@ -19,7 +19,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="6">Layout 3</layout>
         <layout order="7">Final</layout>
         <layout order="9">TestEnvironment</layout>
-        <event-sheet order="8">Event sheet 1</event-sheet>
+        <event-sheet active="1" order="8">Event sheet 1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -46,5 +46,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/PlayerAnimations/" />
         <folder expanded="1" path="animation-folder/itemFlip/" />
         <folder expanded="1" path="animation-folder/itemPause/" />
+        <folder expanded="1" path="animation-folder/Key/" />
+        <folder expanded="1" path="animation-folder/Door/" />
+        <folder expanded="1" path="animation-folder/Trail/" />
+        <folder expanded="1" path="animation-folder/colorPalette/" />
+        <folder expanded="1" path="animation-folder/movingPlatform/" />
+        <folder expanded="1" path="animation-folder/movingWall/" />
+        <folder expanded="1" path="animation-folder/movingWall2/" />
+        <folder expanded="1" path="animation-folder/timedGate/" />
+        <folder expanded="1" path="animation-folder/breakBlock/" />
     </folders-expanded>
 </c2uistate>
